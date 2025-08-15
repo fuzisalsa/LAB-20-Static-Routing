@@ -23,7 +23,7 @@ LOGIN:
 
 ![M](lad22adresPNG.PNG)
 
-3. masukan dst-address dan gateway  
+3. konfigurasi static routing 
    pilih menu IP > routes    
    dst-addres= ip laptop B    
    gateway= ip yang akan di pasang di router2  
@@ -42,7 +42,7 @@ LOGIN:
 
 ![M](LAB22DRS.PNG)
 
-3. masukan dst-address dan gateway  
+3. konfigurasi static routing  
    pilih menu IP > routes
    
          1. dst-addres= ip laptop A  
@@ -56,10 +56,72 @@ LOGIN:
 
 ![M](LAB22ROT2.PNG)
 
-4. setting ip laptop A
+**R3**  
+1. colokkan R2 ke laptop buka winbox    
+   buatkan password dan user lalu identity  
+   system > users  
+   system > identity    
+
+![M]()
+
+![M]()
+
+LOGIN
+
+![M]()
+
+2. masukan ip address untuk eth1 dan eth2      
+   pilih Menu IP > Address    
+   klik +
+ether1 = 12.12.12.6/30 (untuk koneksi R3 ke R2)  
+ether2 = 12.12.12.9/30 (untuk koneksi R3 ke R4)    
+
+![M]()
+
+3. konfigurasi static routing    
+   pilih menu IP > routes    
+dst addrs=11.11.11.0/27 gateway=12.12.12.5 (Ke Laptop A lewat R2)    
+dst addrs=22.22.22.0/29 gateway=12.12.12.10 (Ke Laptop B lewat R4)       
+
+![]()
+
+![M]()
+
+**R4**  
+Dirouter 4, kita akan coba konfigurasi mengunakan mode CLI.  
+1. Buat username dan password sesuai perintah di Topologi.  
+
+         user add name=ahnaf password=jaringan group=full
+
+2. Ganti Identitas RB menjadi R4.  
+
+          system identity set name=R4
+     
+3. Tambahkan IP Address untuk ether1 dan ether2.  
+ether1 = 12.12.12.10/30 (untuk koneksi R4 ke R3)  
+ether2 = 22.22.22.1/29 (untuk koneksi R4 ke Laptop B)  
+
+          ip address add interface=ether1 address=12.12.12.10/30  
+          ip address add interface=ether2 address=22.22.22.1/29  
+
+4. Sekarang konfigurasi static routing  
+dst addrs=11.11.11.0/27 gateway=12.12.12.9 (Ke Laptop A lewat R2)  
+
+          ip route add dst-address=11.11.11.0/27 gateway=12.12.12.9  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# pengujian
+**setting ip laptop A**  
 
 ![M](lab22ws.PNG)
 
-5. ping ke ip laptop B
+**setting ip laptop B**  
+
+ ![M]()
+
+**ping ke ip laptop A**  
+
+![M]()
+
+**ping ke ip laptop B**
 
 ![M](pc2lab22.PNG)
