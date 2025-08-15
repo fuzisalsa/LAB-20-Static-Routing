@@ -4,8 +4,8 @@ tanggal 15 agustus 2025
 
 ![M](grizly.png)
 
-**langkah-langkah:**
-R1
+**langkah-langkah:**  
+**R1**
 1. colokkan R1 ke laptop buka winbox   
    pilih menu terminal buatkan password dan user lalu identity  
 
@@ -30,7 +30,7 @@ LOGIN:
 
 ![M](lab22rot.PNG)
 
-R2
+**R2**
 1. colokkan R1 ke laptop buka winbox
    pilih menu terminal masukakan kan password dan user lalu identity
 
