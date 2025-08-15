@@ -62,4 +62,4 @@ LOGIN:
 
 5. ping ke ip laptop B
 
-![M](pc2lab22)
+![M](pc2lab22.PNG)
