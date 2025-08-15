@@ -83,7 +83,7 @@ ether2 = 12.12.12.9/30 (untuk koneksi R3 ke R4)
 dst addrs=11.11.11.0/27 gateway=12.12.12.5 (Ke Laptop A lewat R2)    
 dst addrs=22.22.22.0/29 gateway=12.12.12.10 (Ke Laptop B lewat R4)       
 
-![]()
+![m]()
 
 ![M]()
 
