@@ -13,6 +13,8 @@ R1
 
 ![T](LAB22IDN.PNG)
 
+LOGIN:
+
 ![M](lab22mask.PNG)
 
 2. masukan ip address untuk eth1 dan eth2  
