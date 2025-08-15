@@ -62,13 +62,13 @@ LOGIN:
    system > users  
    system > identity    
 
-![M]()
+![M](usradd.PNG)
 
-![M]()
+![M](id.PNG)
 
 LOGIN
 
-![M]()
+![M](logon.PNG)
 
 2. masukan ip address untuk eth1 dan eth2      
    pilih Menu IP > Address    
@@ -76,16 +76,16 @@ LOGIN
 ether1 = 12.12.12.6/30 (untuk koneksi R3 ke R2)  
 ether2 = 12.12.12.9/30 (untuk koneksi R3 ke R4)    
 
-![M]()
+![M](r3.PNG)
 
 3. konfigurasi static routing    
    pilih menu IP > routes    
 dst addrs=11.11.11.0/27 gateway=12.12.12.5 (Ke Laptop A lewat R2)    
 dst addrs=22.22.22.0/29 gateway=12.12.12.10 (Ke Laptop B lewat R4)       
 
-![m]()
+![m](rotest.PNG)
 
-![M]()
+![M](rotes.PNG)
 
 **R4**  
 Dirouter 4, kita akan coba konfigurasi mengunakan mode CLI.  
@@ -116,11 +116,11 @@ dst addrs=11.11.11.0/27 gateway=12.12.12.9 (Ke Laptop A lewat R2)
 
 **setting ip laptop B**  
 
- ![M]()
+ ![M](win.PNG)
 
 **ping ke ip laptop A**  
 
-![M]()
+![M](cmds.PNG)
 
 **ping ke ip laptop B**
 
