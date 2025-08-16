@@ -116,19 +116,14 @@ dst addrs=11.11.11.0/27 gateway=12.12.12.9 (Ke Laptop A lewat R2)
 
 **setting ip laptop B**  
 
- ![M](win.PNG)
+ ![M]()
 
-**ping ke ip laptop A**  
 
-![M](cmds.PNG)
+tracert dan ping ke pc B
 
-**ping ke ip laptop B**
+![N](lab22ping.PNG)
 
-![M](pc2lab22.PNG)
 
-tracert ping ke pc A 
-
-![M](tralab22.PNG)
 
 # kesimpulan
 Jadi, Static routing adalah konfigurasi jaringan di mana jalur data antar perangkat jaringan ditentukan secara manual. Static routing tidak akan berubah kecuali diubah.
