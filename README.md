@@ -2,7 +2,7 @@
 tanggal 15 agustus 2025
 # Mengkonfigurasi Static Routing dan basic configuration 
 
-![M](grizly.png)
+![M](22TPLGI.PNG)
 
 **langkah-langkah:**  
 **R1**
@@ -28,7 +28,7 @@ LOGIN:
    dst-addres= ip laptop B    
    gateway= ip yang akan di pasang di router2  
 
-![M](lab22rot.PNG)
+![M]()
 
 **R2**  
 1. colokkan R2 ke laptop buka winbox  
