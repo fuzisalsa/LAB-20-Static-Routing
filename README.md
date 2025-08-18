@@ -2,7 +2,7 @@
 tanggal 15 agustus 2025
 # Mengkonfigurasi Static Routing dan basic configuration 
 
-![M](asdfg.png)
+![M](asdfg.PNG)
 
 **langkah-langkah:**  
 **R1**
