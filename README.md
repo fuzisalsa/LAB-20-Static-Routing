@@ -2,7 +2,7 @@
 tanggal 15 agustus 2025
 # Mengkonfigurasi Static Routing dan basic configuration 
 
-![M](22TPLGI.PNG)
+![M](asdfg.png)
 
 **langkah-langkah:**  
 **R1**
@@ -25,10 +25,11 @@ LOGIN:
 
 3. konfigurasi static routing 
    pilih menu IP > routes    
-   dst-addres= ip laptop B    
-   gateway= ip yang akan di pasang di router2  
 
-![M]()
+![m](iprutr1.PNG)
+
+![m](iprutr11.PNG)
+
 
 **R2**  
 1. colokkan R2 ke laptop buka winbox  
@@ -38,23 +39,14 @@ LOGIN:
 
 2. masukan ip address untuk eth1 dan eth2    
    pilih Menu IP > Address  
-   klik +  
-
-![M](LAB22DRS.PNG)
-
-3. konfigurasi static routing  
-   pilih menu IP > routes
+   klik +
    
-         1. dst-addres= ip laptop A  
-            gateway= ip router1  
+![M](ipr2.PNG)
 
-![M](LAB22ROT2.1.PNG)
+4. konfigurasi static routing  
+   pilih menu IP > routes
 
-
-         2. dst-addres= ip laptop B  
-            gateway= ip yang akan di pasang di router3  
-
-![M](LAB22ROT2.PNG)
+![m](iprutr2.PNG)
 
 **R3**  
 1. colokkan R2 ke laptop buka winbox    
@@ -73,19 +65,13 @@ LOGIN
 2. masukan ip address untuk eth1 dan eth2      
    pilih Menu IP > Address    
    klik +
-ether1 = 12.12.12.6/30 (untuk koneksi R3 ke R2)  
-ether2 = 12.12.12.9/30 (untuk koneksi R3 ke R4)    
+   
+![M](ipr3.PNG)
 
-![M](r3.PNG)
+4. konfigurasi static routing    
+   pilih menu IP > routes
 
-3. konfigurasi static routing    
-   pilih menu IP > routes    
-dst addrs=11.11.11.0/27 gateway=12.12.12.5 (Ke Laptop A lewat R2)    
-dst addrs=22.22.22.0/29 gateway=12.12.12.10 (Ke Laptop B lewat R4)       
-
-![m](rotest.PNG)
-
-![M](rotes.PNG)
+![m](iprutr3.PNG)
 
 **R4**  
 Dirouter 4, kita akan coba konfigurasi mengunakan mode CLI.  
@@ -98,17 +84,14 @@ Dirouter 4, kita akan coba konfigurasi mengunakan mode CLI.
           system identity set name=R4
      
 3. Tambahkan IP Address untuk ether1 dan ether2.  
-ether1 = 12.12.12.10/30 (untuk koneksi R4 ke R3)  
-ether2 = 22.22.22.1/29 (untuk koneksi R4 ke Laptop B)  
 
-          ip address add interface=ether1 address=12.12.12.10/30  
-          ip address add interface=ether2 address=22.22.22.1/29  
+ ![m](ipr4.PNG)
 
-4. Sekarang konfigurasi static routing  
-dst addrs=11.11.11.0/27 gateway=12.12.12.9 (Ke Laptop A lewat R2)  
+4. Sekarang konfigurasi static routing
 
-          ip route add dst-address=11.11.11.0/27 gateway=12.12.12.9  
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![m](iprutr4.PNG)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # pengujian
 **setting ip laptop A**  
 
@@ -116,12 +99,16 @@ dst addrs=11.11.11.0/27 gateway=12.12.12.9 (Ke Laptop A lewat R2)
 
 **setting ip laptop B**  
 
- ![M]()
+ ![M](pc1.PNG)
 
 
 tracert dan ping ke pc B
 
 ![N](lab22ping.PNG)
+
+tracert dan ping ke pc A
+
+![m](cmdsd.PNG)
 
 
 
