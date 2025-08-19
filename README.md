@@ -95,6 +95,7 @@ Dirouter 4, kita akan coba konfigurasi mengunakan mode CLI.
 
 ![m](iprutr4.PNG)
 
+![m](iprutr44.PNG)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # pengujian
 **setting ip laptop A**  
