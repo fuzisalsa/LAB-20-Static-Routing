@@ -98,6 +98,7 @@ Dirouter 4, kita akan coba konfigurasi mengunakan mode CLI.
  ![m](ipr4.PNG)
 
 4. Sekarang konfigurasi static routing
+   pilih menu IP > Routes
 
 ![m](iprutr4.PNG)
 
