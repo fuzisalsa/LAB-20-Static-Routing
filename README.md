@@ -46,7 +46,9 @@ LOGIN:
 4. konfigurasi static routing  
    pilih menu IP > routes
 
-![m](iprutr2.PNG)
+![m](PPT2.png)
+
+![M](iprutr22.PNG)
 
 **R3**  
 1. colokkan R2 ke laptop buka winbox    
@@ -71,7 +73,9 @@ LOGIN
 4. konfigurasi static routing    
    pilih menu IP > routes
 
-![m](iprutr3.PNG)
+![m](PPT3.png)
+
+![M](iprutr33.PNG)
 
 **R4**  
 Dirouter 4, kita akan coba konfigurasi mengunakan mode CLI.  
