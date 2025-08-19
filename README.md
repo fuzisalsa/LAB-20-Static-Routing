@@ -28,6 +28,8 @@ LOGIN:
 
 ![m](iprutr1.PNG)
 
+berikut ini adalah routing table:
+
 ![m](iprutr11.PNG)
 
 
@@ -47,6 +49,8 @@ LOGIN:
    pilih menu IP > routes
 
 ![m](PPT2.png)
+
+berikut ini adalah routing table:
 
 ![M](iprutr22.PNG)
 
@@ -75,6 +79,8 @@ LOGIN
 
 ![m](PPT3.png)
 
+berikut ini adalah routing table:
+
 ![M](iprutr33.PNG)
 
 **R4**  
@@ -95,7 +101,10 @@ Dirouter 4, kita akan coba konfigurasi mengunakan mode CLI.
 
 ![m](iprutr4.PNG)
 
+berikut ini adalah routing table:
+
 ![m](iprutr44.PNG)
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # pengujian
 **setting ip laptop A**  
